@@ -12,3 +12,9 @@ if __name__ == "__main__":
   import sys
   print(contains_no_duplicates(sys.argv[-1]))
     
+contains_no_duplicates('fo')
+
+
+letters={}
+
+letters['f'] = True
